@@ -1,0 +1,83 @@
+/* Algemene layout */
+html, body {
+    height: 100%;              /* zorgt dat body 100% schermhoogte kan gebruiken */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;    /* header, main, footer onder elkaar */
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1e293b;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+/* Main content */
+main {
+    flex: 1;                   /* duwt footer naar beneden */
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Labo-secties */
+.labo {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.labo h2 {
+    margin-top: 0;
+    color: #1e293b;
+}
+
+.labo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.labo li {
+    margin: 0.5rem 0;
+}
+
+.labo a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.labo a:hover {
+    color: #1e40af;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1e293b;
+    color: white;
+    font-size: 0.9rem;
+}
