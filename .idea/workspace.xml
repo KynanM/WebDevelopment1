@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc3e408-9d09-4d03-a195-fe45c4da5bde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebDevSemester1/Labo2/opdracht1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="0dc3e408-9d09-4d03-a195-fe45c4da5bde" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +27,12 @@
     &quot;assignee&quot;: &quot;KynanM&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/KynanM/WebDevelopment1.git&quot;,
-    &quot;accountId&quot;: &quot;7b47a1d0-5ac4-4f91-b5cc-c7ef1c357a4f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KynanM/WebDevelopment1.git",
+    "accountId": "b48e28e9-f877-4e69-b3b2-a9d3ff80375d"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -55,6 +50,7 @@
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.opdracht1.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/kynan/WebDevelopment1",
     "list.type.of.created.stylesheet": "CSS",
@@ -74,7 +70,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
@@ -89,6 +85,7 @@
       <workItem from="1759239096451" duration="9000" />
       <workItem from="1759239747609" duration="17000" />
       <workItem from="1759239791904" duration="3220000" />
+      <workItem from="1759338726724" duration="399000" />
     </task>
     <servers />
   </component>
