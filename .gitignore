@@ -1,12 +1,13 @@
 # JetBrains / WebStorm
-.idea/
+.idea/*
 !.idea/.gitignore
-!.idea/inspectionProfiles
-!.idea/codeStyles
-!.idea/dictionaries
-!.idea/runConfigurations
-# Altijd lokaal houden (nooit committen):
+!.idea/inspectionProfiles/**
+!.idea/codeStyles/**
+!.idea/dictionaries/**
+!.idea/runConfigurations/**
+
+# Altijd lokaal houden (nooit committen)
 .idea/workspace.xml
 .idea/tasks.xml
-.idea/shelf/
-.idea/httpRequests/
+.idea/shelf/**
+.idea/httpRequests/**
