@@ -1,0 +1,10 @@
+a::before {
+    content: "";                    /* maakt het pseudo-element zichtbaar */
+    display: inline-block;          /* laat breedte/hoogte werken */
+    width: 14px;                    /* grootte icoon */
+    height: 14px;
+    background-image: url("images/link.png"); /* je icoon */
+    background-size: contain;       /* schaalt icoon binnen blok */
+    background-repeat: no-repeat;   /* geen herhaling */
+    margin-right: 4px;              /* klein beetje ruimte tussen icoon en tekst */
+}
