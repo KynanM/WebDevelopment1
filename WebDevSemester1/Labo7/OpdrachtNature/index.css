@@ -1,0 +1,42 @@
+body{
+    margin:auto;
+    width:95%;
+}
+
+section > header{
+    background-image: url("images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    position: relative;
+}
+
+h1{
+    color: white;
+}
+
+article{
+    background-color: #EDF2F4;
+    margin:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+
+article h2{
+    color: #333333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav{
+    background-color: #333333;
+    color: #1e293b;
+    padding: 10px;
+}
+
+nav a{
+    color: green;
+    font-weight: bold;
+}
