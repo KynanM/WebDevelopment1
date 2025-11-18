@@ -1,0 +1,254 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+main {
+    max-width: 960px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+header {
+    background-color: rgb(0, 51, 102);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #002244;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    font-style: italic;
+    margin: 0;
+}
+
+section h2::before {
+    content: "▸ ";
+    color: #ff6600;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+section:first-of-type ul li {
+    margin-bottom: 4px;
+}
+
+.hobby-list {
+    list-style-type: square;
+}
+
+a:link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+.hobby-list a::before {
+    content: "🔗 ";
+}
+
+figure {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5% 15px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 8px auto;
+    border-radius: 6px;
+}
+
+#prognose-tabel {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95rem;
+    background-color: #ffffff;
+}
+
+#prognose-tabel th,
+#prognose-tabel td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#prognose-tabel thead th {
+    background-color: #003366;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+#prognose-tabel tbody th[scope="row"] {
+    text-align: left;
+    background-color: #e6f0ff;
+    font-weight: bold;
+}
+
+#prognose-tabel tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid #444444;
+}
+
+#prognose-titel {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.datagrid {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    border: 1px solid #006699;
+    border-radius: 3px;
+}
+
+.datagrid th,
+.datagrid td {
+    padding: 3px 10px;
+}
+
+.datagrid thead th {
+    background-color: #006699;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #0070a8;
+}
+
+.datagrid thead th:first-child {
+    border-left: none;
+}
+
+
+.datagrid tbody td {
+    color: #00557f;
+    border-left: 1px solid #e1eef4;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.datagrid tbody tr.alt td {
+    background: #e1eef4;
+    color: #00557f;
+}
+
+.datagrid tbody td:first-child {
+    border-left: none;
+}
+
+.datagrid tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Footer + paginatie */
+.datagrid tfoot td {
+    padding: 0;
+    font-size: 12px;
+}
+
+.datagrid tfoot td div {
+    border-top: 1px solid #006699;
+    background: #e1eef4;
+    padding: 2px;
+}
+
+.datagrid tfoot ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.datagrid tfoot li {
+    display: inline;
+}
+
+.datagrid tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #ffffff;
+    border: 1px solid #006699;
+    border-radius: 3px;
+    background-color: #006699;
+}
+
+.datagrid tfoot li a.active,
+.datagrid tfoot li a:hover {
+    text-decoration: none;
+    border-color: #00557f;
+    color: #ffffff;
+    background-color: #006699;
+}
+
+.onbekend {background-color:red;}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>De homepage van Tom</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>De homepage van Tom</h1>
+    <p>Dit is een pagina dat mijn persoonlijke informatie deelt met jullie zodat je mij kan leren kennen en contacteren.</p>
+</header>
+
+<main>
+    <section>
+        <h2>Persoonlijke informatie</h2>
+        <ul>
+            <li>Naam: Tom</li>
+            <li>Adres : Stationsstraat 6</li>
+            <li>Telefoonnummer : +32 0482 19 39 27</li>
+            <li>email : tom.desmet@gmail.com</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Hobby's</h2>
+        <ul class="hobby-list">
+            <li>
+                <strong>Voetbal</strong>
+                <p>Ik heb voetbal gespeeld sinds dat ik 7 jaar was. Heb er altijd een passie voor gehad.</p>
+                <a href="https://nl.wikipedia.org/wiki/Voetbal">voetbal</a>
+            </li>
+            <li>
+                <strong>Gym</strong>
+                <p>Ik ga wekelijks naar de gym voor gewichten te heffen. Ik wil er beter uitzien en me zelfvertrouwen omhoog doen.</p>
+                <a href="https://www.basic-fit.com/">Gym</a>
+            </li>
+            <li>
+                <strong>Tennis</strong>
+                <p>Heb dit altijd met me pa al gespeeld voor de fun. Doe dit soms in me vrije tijd.</p>
+                <a href="https://nl.wikipedia.org/wiki/Tennis">Tennis</a>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Intresses</h2>
+
+        <h3>Films</h3>
+        <p>Mijn favorite films zijn van het genre : Science fiction, Thriller, Horror, Comedy <br> Hieronder zijn enkele films:</p>
+
+        <figure>
+            <img src="../images/The_Wolf_of_Wall_Street_(2013).png" alt="Wolf of Wall street" width="325" height="500">
+            <figcaption>Wolf of Wall street</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/interstellar.jpg" alt="Interstellar" width="325" height="500">
+            <figcaption>Interstellar</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/dune.jpg" alt="Dune" width="325" height="500">
+            <figcaption>Dune</figcaption>
+        </figure>
+
+        <h3>Muziek</h3>
+        <p>Mijn favorite muziek zijn van het genre: Rap, House,... <br> Hieronder zijn enkele artiesten:</p>
+
+        <figure>
+            <img src="../images/Fred_Again_2025_(cropped).jpg" alt="Fred Again" width="325" height="500">
+            <figcaption>Fred Again</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/drake.jpg" alt="Drake" width="325" height="500">
+            <figcaption>Drake</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/kendricklamar.jpg" alt="Kendrick Lamar" width="325" height="500">
+            <figcaption>Kendrick Lamar</figcaption>
+        </figure>
+
+    </section>
+
+    <section>
+        <h2 id="prognose-titel">Prognose</h2>
+        <p>Hieronder vind je de verwachte scores van 3 studenten voor 3 vakken.</p>
+
+        <table id="prognose-tabel">
+            <thead>
+            <tr>
+                <th scope="col">Vak</th>
+                <th scope="col">Tom</th>
+                <th scope="col">Medestudent 1</th>
+                <th scope="col">Medestudent 2</th>
+                <th scope="col">Medestudent 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Web Development</th>
+                <td>5</td>
+                <td>11</td>
+                <td>9</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <th scope="row">Databases</th>
+                <td>3</td>
+                <td>11</td>
+                <td>14</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th scope="row">Linux</th>
+                <td>9</td>
+                <td>12</td>
+                <td>15</td>
+                <td>12</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Vrienden</h2>
+        <p>Hieronder vind je een lijst van 5 vrienden.</p>
+        <table class="datagrid">
+            <thead>
+            <tr>
+                <th>Voornaam</th>
+                <th>Familienaam</th>
+                <th>Postcode</th>
+                <th>Gemeente</th>
+                <th>Telefoon</th>
+                <th>E-mail</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Lotte</td>
+                <td>Vermeersch</td>
+                <td class="onbekend">???</td>
+                <td>Ieper</td>
+                <td>+32 486 12 34 56</td>
+                <td>lotte.vermeersch@example.com</td>
+            </tr>
+
+            <tr class="alt">
+                <td>Arne</td>
+                <td>De Smet</td>
+                <td>8800</td>
+                <td class="onbekend">Onbekend</td>
+                <td>+32 496 22 11 33</td>
+                <td>arne.desmet@example.com</td>
+            </tr>
+
+            <tr>
+                <td>Sara</td>
+                <td>Vandamme</td>
+                <td>8600</td>
+                <td>Diksmuide</td>
+                <td>+32 495 77 55 44</td>
+                <td>sara.vandamme@example.com</td>
+            </tr>
+
+            <tr class="alt">
+                <td>Yanis</td>
+                <td>El Amrani</td>
+                <td>8500</td>
+                <td>Kortrijk</td>
+                <td>+32 481 90 80 70</td>
+                <td>yanis.elamrani@example.com</td>
+            </tr>
+
+            <tr>
+                <td>Emma</td>
+                <td>Maes</td>
+                <td>8970</td>
+                <td>Poperinge</td>
+                <td>+32 497 44 55 66</td>
+                <td>emma.maes@example.com</td>
+            </tr>
+            </tbody>
+
+            <tfoot>
+            <tr>
+                <td colspan="6">
+                    <div id="paging">
+                        <ul>
+                            <li><a href="#"><span>Previous</span></a></li>
+                            <li><a href="#" class="active"><span>1</span></a></li>
+                            <li><a href="#"><span>2</span></a></li>
+                            <li><a href="#"><span>3</span></a></li>
+                            <li><a href="#"><span>4</span></a></li>
+                            <li><a href="#"><span>5</span></a></li>
+                            <li><a href="#"><span>Next</span></a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 Tom</p>
+</footer>
+
+</body>
+</html>

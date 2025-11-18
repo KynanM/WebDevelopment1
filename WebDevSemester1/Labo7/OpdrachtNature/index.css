@@ -1,42 +1,46 @@
-body{
-    margin:auto;
-    width:95%;
+body {
+    margin: auto;
+    width: 95%;
 }
 
-section > header{
+section > header {
     background-image: url("images/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
+    padding: 60px;
     position: relative;
 }
 
-h1{
+section > header h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
     color: white;
 }
 
-article{
+article {
     background-color: #EDF2F4;
-    margin:5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 10px 0;
+    padding: 10px 15px;
     text-align: left;
-
+    width: 100%;
+    box-sizing: border-box;
 }
 
-article h2{
+
+article h2 {
     color: #333333;
     font-weight: bold;
     text-decoration: underline;
 }
 
-nav{
+nav {
     background-color: #333333;
-    color: #1e293b;
     padding: 10px;
 }
 
-nav a{
+nav a {
     color: green;
     font-weight: bold;
 }
