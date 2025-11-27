@@ -1,0 +1,24 @@
+article{
+    margin: 10px;
+    font-size: 1.25em;
+    border: black solid 1px;
+    height: 250px;
+}
+
+p{
+    margin: 5px;
+}
+h2{
+    margin: 5px;
+}
+
+article:nth-of-type(odd) img {
+    float: left;
+    margin-right: 10px;
+}
+
+article:nth-of-type(even) img {
+    float: right;
+    margin-left: 10px;
+}
+
