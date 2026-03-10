@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
